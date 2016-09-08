@@ -1,16 +1,21 @@
 body {
   color: #444444;
 }
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
 .container {
   padding-top: 30px;
 }
 h1 {
   font-size: 3rem;
-  font-weight: 700;
 }
 h3 {
   font-size: 2.75rem;
-  font-weight: 700;
+}
+h4 {
+  font-size: 2rem;
+  margin-bottom: 10px;
 }
 a {
   text-decoration: none;
@@ -19,14 +24,23 @@ a {
 a:hover {
   color: #555555;
 }
-.main h1 {
-  border-bottom: 1px solid #aaaaaa;
-}
 .sidebar h3 {
   margin: 5px 0px 5px 0px;
 }
 .bio-photo {
   max-width: 110px;
   border-radius: 150px;
+}
+.main h1 {
+  border-bottom: 1px solid #aaaaaa;
+}
+.main ul {
+  list-style: disc inside;  
+}
+.main li a {
+  border-bottom: 1px dotted #aaaaaa;
+}
+.main li a:hover {
+  border-bottom: 1px solid #aaaaaa;
 }
 
