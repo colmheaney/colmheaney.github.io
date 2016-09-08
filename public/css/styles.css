@@ -1,0 +1,32 @@
+body {
+  color: #444444;
+}
+.container {
+  padding-top: 30px;
+}
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+h3 {
+  font-size: 2.75rem;
+  font-weight: 700;
+}
+a {
+  text-decoration: none;
+  color: #333333;
+}
+a:hover {
+  color: #555555;
+}
+.main h1 {
+  border-bottom: 1px solid #aaaaaa;
+}
+.sidebar h3 {
+  margin: 5px 0px 5px 0px;
+}
+.bio-photo {
+  max-width: 110px;
+  border-radius: 150px;
+}
+
