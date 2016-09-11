@@ -4,9 +4,6 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
-.container {
-  padding-top: 30px;
-}
 h1 {
   font-size: 3rem;
 }
@@ -23,6 +20,9 @@ a {
 }
 a:hover {
   color: #555555;
+}
+.container {
+  padding-top: 30px;
 }
 .sidebar h3 {
   margin: 5px 0px 5px 0px;
@@ -42,5 +42,8 @@ a:hover {
 }
 .main li a:hover {
   border-bottom: 1px solid #aaaaaa;
+}
+.fa-li {
+    top: .25em;
 }
 
